@@ -1,5 +1,5 @@
 {% set name = "daio" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/daio-{{ version }}.tar.gz
-  sha256: b5329e848ebf1e46921854c35a11dd41273873a7437809dffeb63cea6ecfe5be
+  sha256: 641034ada942582e6bb686d302a4acf2d4adbb3131aecc62459dc7bb83476c9f
 
 build:
   noarch: python
