@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
-    - av <14
+    - av
     - h5py
     - hdf5plugin
 
